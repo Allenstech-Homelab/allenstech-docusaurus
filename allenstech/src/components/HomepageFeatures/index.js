@@ -14,22 +14,29 @@ const FeatureList = [
   //  ),
   //},
   {
-    title: 'Tech Tutorials',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Automation Projects',
+    Svg: require('@site/static/img/automation.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Terraform, Packer, GitHub, Azure DevOps, CI/CD pipelines — detailed writeups of real-world implementations.
       </>
     ),
   },
   {
-    title: 'Powered by Docusaurus & React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Tech Guides',
+    Svg: require('@site/static/img/tech.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Hands-on tutorials covering cloud, Linux, Windows, monitoring, and more.
+      </>
+    ),
+  },
+  {
+    title: 'Homelab Tutorials',
+    Svg: require('@site/static/img/servers.svg').default,
+    description: (
+      <>
+        Explore the inner workings of my personal homelab. I document builds, upgrades, network layouts, and automation across Proxmox, pfSense, TrueNAS, and more.
       </>
     ),
   },
