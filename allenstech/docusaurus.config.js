@@ -27,8 +27,10 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'allenstech-docusaurus', // Usually your GitHub org/user name.
-  projectName: 'Allenstech-Homelab', // Usually your repo name.
+  organizationName: 'Allenstech-Homelab', // Usually your GitHub org/user name.
+  projectName: 'allenstech-docusaurus', // Usually your repo name.
+  deploymentBranch: 'main', // The branch that GitHub pages will deploy from.
+  trailingSlash: false, // Set to true if you want to add a trailing slash to all URLs
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
