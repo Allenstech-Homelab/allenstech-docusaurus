@@ -2,8 +2,7 @@ name: Test deployment
 
 defaults:
   run:
-    shell: bash
-    working-directory: ./allenstech
+    working-directory: ./allenstech/
 
 on:
   pull_request:
