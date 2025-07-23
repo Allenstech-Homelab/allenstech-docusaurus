@@ -26,8 +26,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} | Tech tutorials, news, & more`}
-      description="Description will go into a meta tag in <head />">
+      title={`Tech tutorials, news, & more`}
+      description="Allenstech.io offers hands-on tech tutorials, automation project writeups, homelab guides, and practical walkthroughs for cloud, Linux, Windows, monitoring, and more. Discover real-world solutions for DevOps, infrastructure, and home IT.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
