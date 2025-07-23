@@ -101,8 +101,13 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/allenstechio',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://www.linkedin.com/in/michaeljallen941/',
+            label: 'LinkedIn',
             position: 'right',
           },
         ],
