@@ -4,10 +4,11 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 8rem 0 4rem 0; /* Increase top padding to move title text down slightly */
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: var(--ifm-background-color);
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +21,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.heroBanner .hero__title,
+.heroBanner .hero__subtitle {
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+:global(.hero__title),
+:global(.hero__subtitle) {
+  color: #fff !important;
+}
+
+:global([data-theme='dark']) .hero__title,
+:global([data-theme='dark']) .hero__subtitle {
+  color: #fff !important;
 }
