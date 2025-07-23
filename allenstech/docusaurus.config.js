@@ -111,20 +111,36 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Site Links',
             items: [
               {
                 label: 'Home',
-                to: '/docs/home', // Updated to valid page
+                to: '/', // Updated to valid page
+              },
+              {
+                label: 'Tutorials',
+                to: '/docs/home',
+              },
+              {
+                label: 'Blog',
+                to: '/blog',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Socials',
             items: [
+              //{
+              //  label: 'Discord',
+              //  href: 'https://discordapp.com/invite/YJxK67w',
+              //},
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/YJxK67w',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/michaeljallen941/',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/allenstechio',
               },
               {
                 label: 'X',
@@ -136,12 +152,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Proxmox Helper Scripts',
+                href: 'https://community-scripts.github.io/ProxmoxVE/scripts',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/allenstechio',
+                label: 'IT-Tools',
+                href: 'https://it-tools.tech/',
               },
             ],
           },
