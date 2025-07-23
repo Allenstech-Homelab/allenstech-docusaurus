@@ -1,9 +1,5 @@
 name: Deploy to GitHub Pages
 
-defaults:
-  run:
-    working-directory: ./allenstech/
-
 on:
   push:
     branches:
@@ -25,13 +21,15 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+        working-directory: ./allenstech
       - name: Build website
         run: npm run build
+        working-directory: ./allenstech
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build
+          path: allenstech/build
 
   deploy:
     name: Deploy to GitHub Pages
