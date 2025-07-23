@@ -2,18 +2,59 @@
   display: flex;
   align-items: center;
   justify-content: center; /* Center horizontally */
-  padding: 2rem 0;
+  padding: 12rem 0 2rem 0; /* Increase top space to move sections much further down */
+  width: 100%;
+}
+
+.centerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
 .row {
   display: flex;
-  justify-content: center; /* Center the feature cards */
-  flex-wrap: wrap;         /* Allow wrapping on smaller screens */
-  gap: 2rem;               /* Add space between cards */
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.featureCard {
+  flex: 1 1 300px;
+  max-width: 350px;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* Remove background, border-radius, box-shadow, and padding for a clean look */
 }
 
 .featureSvg {
   height: 75px;
   width: 75px;
+}
+
+@media (max-width: 900px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+  .featureCard {
+    max-width: 100%;
+    margin: 0 0 2rem 0;
+  }
 }
