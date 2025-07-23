@@ -149,7 +149,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Useful Links',
             items: [
               {
                 label: 'Proxmox Helper Scripts',
@@ -158,6 +158,14 @@ const config = {
               {
                 label: 'IT-Tools',
                 href: 'https://it-tools.tech/',
+              },
+              {
+                label: 'Crontab Guru',
+                href: 'https://crontab.guru/',
+              },
+              {
+                label: 'Linuxserver.io',
+                href: 'https://linuxserver.io/',
               },
             ],
           },
