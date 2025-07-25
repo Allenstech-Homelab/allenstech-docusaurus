@@ -1,8 +1,8 @@
 ---
-slug: first-blog-post
-title: First Blog Post
+slug: welcome-to-allenstech
+title: Welcome to Allenstech!
 authors: [michael]
 ---
-### Welcome to my tech blog!
+### Welcome to Allenstech!
 
-This platform serves as a space to share in-depth technical tutorials, professional insights, and personal perspectives on a wide range of technology topics. Content will focus on areas such as cloud infrastructure, automation, homelab environments, and 3D printing—drawing from real-world experience and practical implementations. New articles and resources will be published regularly, so so be sure to check back often for the latest updates.
+Thank you for visiting my tech blog! Here, you'll find in-depth tutorials, professional insights, and personal perspectives on technology topics including cloud infrastructure, automation, homelab setups, and 3D printing. All content is based on real-world experience and practical implementations. New articles and resources will be published regularly—be sure to check back often for the latest updates!
