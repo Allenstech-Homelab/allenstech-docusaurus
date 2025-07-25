@@ -1,41 +1,29 @@
-# Website
+# Allenstech.io
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Allenstech.io is a tech blog and homelab knowledge base built with Docusaurus. Here you'll find:
 
-## Installation
+- **Automation Projects:** Real-world writeups on Terraform, Packer, GitHub Actions, Azure DevOps, CI/CD pipelines, and more.
+- **Tech Guides:** Hands-on tutorials for cloud, Linux, Windows, monitoring, and IT tools.
+- **Homelab Tutorials:** Documentation of builds, upgrades, network layouts, and automation across Proxmox, pfSense, TrueNAS, and other platforms.
 
-```bash
-yarn
-```
+## Getting Started
 
-## Local Development
-
-```bash
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
+### Installation
 
 ```bash
-yarn build
+choco install npm
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
+### Local Development
 
 ```bash
-USE_SSH=true yarn deploy
+npx docusaurus start
 ```
 
-Not using SSH:
+This starts a local dev server. Changes are reflected live.
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+## About
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Created and maintained by Michael Allen. Connect on [LinkedIn](https://www.linkedin.com/in/michaeljallen941/) or [GitHub](https://github.com/allenstechio).
+
+For more, visit the [About page](/about).
